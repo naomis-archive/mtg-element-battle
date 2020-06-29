@@ -54,6 +54,10 @@ function reset(): void {
   const playerScore: HTMLElement = document.getElementById("plyr-score");
   const computerScore: HTMLElement = document.getElementById("comp-score");
   const winner: HTMLElement = document.getElementById("winner");
+  const playerImage: HTMLElement = document.getElementById("plyr");
+  const computerImage: HTMLElement = document.getElementById("comp");
+  playerImage.setAttribute("src", "./img/blank.png");
+  computerImage.setAttribute("src", "./img/blank.png");
   playerScore.innerText = "0";
   computerScore.innerText = "0";
   winner.innerHTML = "<em>Please make a choice below to start playing!</em>";

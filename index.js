@@ -48,6 +48,10 @@ function reset() {
     var playerScore = document.getElementById("plyr-score");
     var computerScore = document.getElementById("comp-score");
     var winner = document.getElementById("winner");
+    var playerImage = document.getElementById("plyr");
+    var computerImage = document.getElementById("comp");
+    playerImage.setAttribute("src", "./img/blank.png");
+    computerImage.setAttribute("src", "./img/blank.png");
     playerScore.innerText = "0";
     computerScore.innerText = "0";
     winner.innerHTML = "<em>Please make a choice below to start playing!</em>";

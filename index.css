@@ -10,6 +10,10 @@ body {
   grid-template-columns: auto auto;
 }
 
+.choice {
+  border-radius: 50%;
+}
+
 .bullet {
   height: 25px;
   border-radius: 50%;
