@@ -1,0 +1,54 @@
+body {
+  background-color: #3e1354;
+  color: #ffffff;
+  margin: 0;
+  text-align: center;
+}
+
+#game-container {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.bullet {
+  height: 25px;
+  border-radius: 50%;
+}
+
+.button {
+  height: 50px;
+  border-radius: 50%;
+}
+
+#forest {
+  background-color: #9ed4ae;
+}
+
+#mountain {
+  background-color: #f9aa8f;
+}
+
+#island {
+  background-color: #5dbcd2;
+}
+
+#plains {
+  background-color: #f8f8d1;
+}
+
+#swamp {
+  background-color: #cac2bb;
+}
+
+.header {
+  font-size: 20pt;
+}
+
+#score {
+  font-size: 20pt;
+  text-decoration: underline;
+}
+
+a {
+  color: #ffffff;
+}

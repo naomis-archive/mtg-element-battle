@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <script src="index.js"></script>
+    <title>Magic: The Gathering - Element Battle!</title>
+</head>
+<body>
+    <h1>MTG Element Battle!</h1>
+    <div id="game-container">
+        <p class="header">Your choice:</p>
+        <p class="header">Computer choice:</p>
+        <p><img id="plyr" class="choice" src="./img/blank.png"></p>
+
+        <p><img id="comp" class="choice" src="./img/blank.png"></p>
+    </div>
+    <p id="score">Player: <span id="plyr-score">0</span> - Computer: <span id="comp-score">0</span></p>
+    <p><span id="winner"><em>Please make a choice below to start playing!</em></span></p>
+    <div id="btn-container">
+        <button id="forest" onclick="playerTurn(0)"><img class="button" src="./img/forest.png"> </button>
+        <button id="mountain" onclick="playerTurn(1)"><img class="button" src="./img/mountain.png"> </button>
+        <button id="island" onclick="playerTurn(2)"><img class="button" src="./img/island.png"> </button>
+        <button id="plains" onclick="playerTurn(3)"><img class="button" src="./img/plains.png"> </button>
+        <button id="swamp" onclick="playerTurn(4)"><img class="button" src="./img/swamp.png"> </button>
+    </div>
+    <button id="reset" onclick="reset()">RESET</button>
+    <div id="rules-container">
+        <h2>Rules:</h2>
+        <p>To play, select one of the buttons above to choose your move. The computer will respond with its move, and the winner will be determined by the following rules.</p>
+        <p><img class="bullet" src="./img/forest.png"> wins against <img class="bullet" src="./img/plains.png"> and <img class="bullet" src="./img/swamp.png"></p>
+        <p><img class="bullet" src="./img/mountain.png"> wins against <img class="bullet" src="./img/swamp.png"> and <img class="bullet" src="./img/forest.png"></p>
+        <p><img class="bullet" src="./img/island.png"> wins against <img class="bullet" src="./img/forest.png"> and <img class="bullet" src="./img/mountain.png"></p>
+        <p><img class="bullet" src="./img/plains.png"> wins against <img class="bullet" src="./img/mountain.png"> and <img class="bullet" src="./img/island.png"></p>
+        <p><img class="bullet" src="./img/swamp.png"> wins against <img class="bullet" src="./img/island.png"> and <img class="bullet" src="./img/plains.png"></p>
+    </div>
+    <hr>
+</body>
+<footer>Website &copy; <a href="https://www.nhcarrigan.com">Nicholas Carrigan</a> | Magic: The Gathering &copy; <a>Wizards of the Coast</a></footer>
+</html>
