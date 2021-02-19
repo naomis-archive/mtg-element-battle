@@ -7,7 +7,7 @@ This repository contains the files for my Magic: The Gathering themed rock-paper
 
 ## Live Version
 
-This page is currently deployed. [View the live website.](https://www.nhcarrigan.com/mtg-element-battle)
+This project is archived and thus is not deployed.
 
 ## Feedback and Bugs
 
